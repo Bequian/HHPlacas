@@ -27,9 +27,9 @@ local NOMBRES = {
     auras = "Debuffs",
     objetivo = "Resaltado de objetivo",
     marcaBanda = "Marca de banda",
-    elite = "Élite / Raro / Jefe",
+    elite = "Icono tipo Mob",
     mision = "Misión (HH Misiones)",
-    logo = "Logo HustlinHitmans",
+    logo = "Logo Hermandad",
     hermandad = "Hermandad / título",
 }
 
@@ -194,9 +194,9 @@ local SIMS = {
     elite = { nombre = "Capataz Gorroñoso", nivel = 18, clasif = "elite", reaccion = 2, vida = 0.8, max = 5200, atacable = true },
     jefe = { nombre = "Edwin VanCleef", nivel = -1, clasif = "worldboss", reaccion = 2, vida = 0.35, max = 48000, atacable = true },
     npc = { nombre = "Sra. Winters", nivel = 20, clasif = "normal", reaccion = 5, vida = 1, max = 900, aliado = true, hermandad = "Suministros generales" },
-    aliado = { nombre = "Lyra Vientoclaro", nivel = 60, clasif = "normal", reaccion = 5, vida = 0.75, max = 3800, aliado = true, jugador = true, clase = "PRIEST", hermandad = "Los Vigilantes" },
-    rival = { nombre = "Kragg Puñohierro", nivel = 60, clasif = "normal", reaccion = 2, vida = 0.5, max = 5100, atacable = true, jugador = true, clase = "SHAMAN", hermandad = "La Horda Eterna" },
-    hermandad = { nombre = "Angelo Benvenuto", nivel = 60, clasif = "normal", reaccion = 5, vida = 0.9, max = 4200, aliado = true, jugador = true, clase = "PALADIN" },
+    aliado = { nombre = "Norgannon Forever", nivel = 60, clasif = "normal", reaccion = 5, vida = 0.75, max = 3800, aliado = true, jugador = true, clase = "PRIEST", hermandad = "Los Vigilantes" },
+    rival = { nombre = "Norgannon Forever", nivel = 60, clasif = "normal", reaccion = 2, vida = 0.5, max = 5100, atacable = true, jugador = true, clase = "SHAMAN", hermandad = "La Horda Eterna" },
+    hermandad = { nombre = "Norgannon Forever", nivel = 60, clasif = "normal", reaccion = 5, vida = 0.9, max = 4200, aliado = true, jugador = true, clase = "PALADIN" },
 }
 
 local function ConstruirSim()
