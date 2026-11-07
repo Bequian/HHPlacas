@@ -1,0 +1,22 @@
+## Interface: 16001
+## Title: |cffffd100HH|r Placas
+## Notes: Placas de nombre personalizables con diseñador visual, logo de HustlinHitmans y progreso de misiones.
+## Author: Angelo
+## Version: 1.2.0
+## SavedVariables: HHPlacasDB
+## IconTexture: Interface\AddOns\HHPlacas\Media\logo.tga
+## AddonCompartmentFunc: HHPlacas_Compartimento
+## Category: Unit Frames
+## Category-esES: Marcos de unidades
+## Category-esMX: Marcos de unidades
+
+Core.lua
+Predeterminados.lua
+Media.lua
+Placa.lua
+Auras.lua
+Misiones.lua
+Hermandad.lua
+Widgets.lua
+Disenador.lua
+Minimapa.lua
